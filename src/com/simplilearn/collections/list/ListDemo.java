@@ -22,7 +22,7 @@ public class ListDemo {
 		
 		
 		
-		List<String> users = new ArrayList<String>();
+		List<String> users = new LinkedList<String>();
 		
 		// add data in array list
 		users.add("John");
@@ -31,7 +31,7 @@ public class ListDemo {
 		users.add("Marry");
 		users.add("Ava");
 		users.add("John");
-		
+		// users.add(6565);
 		
 		System.out.println(users);
 		System.out.println("The element at index 2 : "+users.get(2));
