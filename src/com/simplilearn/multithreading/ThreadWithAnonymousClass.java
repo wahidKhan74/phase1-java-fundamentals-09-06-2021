@@ -1,4 +1,4 @@
-package com.simplilearn.collections.multithreading;
+package com.simplilearn.multithreading;
 
 public class ThreadWithAnonymousClass {
 

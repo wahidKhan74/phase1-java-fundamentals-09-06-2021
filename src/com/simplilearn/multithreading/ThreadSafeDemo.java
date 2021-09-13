@@ -1,4 +1,4 @@
-package com.simplilearn.collections.multithreading;
+package com.simplilearn.multithreading;
 
 class Counter {
 
