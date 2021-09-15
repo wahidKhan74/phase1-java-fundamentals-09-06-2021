@@ -9,8 +9,16 @@ public class ThrowsDemo {
 	public static void main(String[] args) {
 		
 		try {
-			ageValidator(30);
-			ageValidator(0);
+			try {
+				ageValidator(30);
+			} catch (Exception e) {
+				System.out.println("Exception Occured ! " + e.getClass());
+			}
+			try {
+				ageValidator(0);
+			} catch (Exception e) {
+				System.out.println("Exception Occured ! " + e.getClass());
+			}			
 			ageValidator(-20);
 		} catch (IOException e) {
 			System.out.println("Exception Occured ! " + e.getClass());
